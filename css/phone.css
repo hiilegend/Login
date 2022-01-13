@@ -1,0 +1,36 @@
+section{
+    padding: 0px 20px;
+    text-align: center;
+    align-content: center;
+    box-shadow: none;
+    display: flex;
+
+}
+.content{
+    border: none;
+    box-shadow: none;
+    display: block;
+}
+input{
+    text-align: center;
+}
+.box span{
+    display: none;
+}
+.box span::before{
+    display: none;
+}
+section::before{
+    background: none;
+}
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:252px){
+    section{
+        margin-left: 50px;
+    }
+}
